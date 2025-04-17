@@ -3,5 +3,6 @@
 class TreasureRoom : public Room {
 public:
     TreasureRoom();
-    void onEnter() override;
+    void onEnter(Monk& monk) override;
+
 };

@@ -1,3 +1,16 @@
 ﻿  Dungeon.cpp
-C:\Users\james\source\repos\MonkGame\MonkGame\Dungeon.cpp(9,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\james\source\repos\MonkGame\MonkGame\Dungeon.cpp(11,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  EmptyRoom.cpp
+  Entity.cpp
+  Goblin.cpp
+  main.cpp
+  Monk.cpp
+  Monster.cpp
+  MonsterRoom.cpp
+C:\Users\james\source\repos\MonkGame\MonkGame\MonsterRoom.cpp(14,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Room.cpp
+  RoomFactory.cpp
+  TreasureRoom.cpp
+  UpgradeRoom.cpp
+  Generating Code...
   MonkGame.vcxproj -> C:\Users\james\source\repos\MonkGame\x64\Debug\MonkGame.exe

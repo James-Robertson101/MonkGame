@@ -1,11 +1,13 @@
 #include <iostream>
 #include "Dungeon.h"
 int main() {
-    Dungeon dungeon;
-    dungeon.generate();   // Generate the random dungeon
-    dungeon.explore();    // Begin exploring
+    // Create a Monk instance
+    Monk monk("Hero", "A brave monk seeking adventure!");
 
-    return 0;
+    // Generate a dungeon and explore
+    Dungeon dungeon;
+    dungeon.generate();
+    dungeon.explore(monk);
 
     return 0;
 }

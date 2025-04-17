@@ -3,5 +3,6 @@
 class EmptyRoom : public Room {
 public:
     EmptyRoom();
-    void onEnter() override;
+    void onEnter(Monk& monk) override;
+
 };

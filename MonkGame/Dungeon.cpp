@@ -3,6 +3,8 @@
 #include <cstdlib>
 #include <ctime>
 #include <random>
+#include "Monk.h"
+
 
 
 Dungeon::Dungeon() {
@@ -57,38 +59,50 @@ void Dungeon::connectRooms() {
 }
 
 
-void Dungeon::explore() {
+void Dungeon::explore(Monk& monk) {
     auto currentRoom = startingRoom;
     while (true) {
-        currentRoom->onEnter();
+        currentRoom->onEnter(monk);
 
-        // If we have no forward connections, we're at the end (treasure or dead‑end)
         const auto& connections = currentRoom->getConnectedRooms();
+
         if (connections.empty()) {
             std::cout << "No more rooms to explore. Game over!\n";
             break;
         }
 
-        // Otherwise list your one (or more, if extras) forward paths
         std::cout << "\nConnected rooms:\n";
         for (size_t i = 0; i < connections.size(); ++i) {
             std::cout << i + 1 << ". " << connections[i]->getType() << "\n";
         }
 
-        std::cout << "Choose a room to go to (0 to quit): ";
-        int choice;
-        std::cin >> choice;
+        int choice = -1;
+        while (true) {
+            std::cout << "Choose a room to go to (0 to quit): ";
+            std::cin >> choice;
 
-        if (choice == 0) {
-            std::cout << "Exiting exploration.\n";
-            break;
-        }
-        else if (choice > 0 && choice <= static_cast<int>(connections.size())) {
-            currentRoom = connections[choice - 1];
-        }
-        else {
-            std::cout << "Invalid choice, try again.\n";
+            if (std::cin.fail()) {
+                std::cin.clear(); // Clear error flag
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Clear input buffer
+                std::cout << "Invalid input. Please enter a number.\n";
+                continue;
+            }
+
+            if (choice == 0) {
+                std::cout << "Exiting exploration.\n";
+                return;
+            }
+            else if (choice > 0 && choice <= static_cast<int>(connections.size())) {
+                currentRoom = connections[choice - 1];
+                break;
+            }
+            else {
+                std::cout << "Invalid choice. Try again.\n";
+            }
         }
     }
 }
+
+
+
 

@@ -5,6 +5,7 @@
 #include <vector>
 #include <memory> // For smart pointers
 #include <iostream>
+#include "Monk.h"
 
 class Room {
 public:
@@ -22,7 +23,7 @@ public:
     const std::vector<std::shared_ptr<Room>>& getConnectedRooms() const;
 
     // Virtual function for room-specific behavior
-    virtual void onEnter() = 0;
+    virtual void onEnter(Monk& monk) = 0;
 
 protected:
     std::string type; // Type of room (e.g., "Empty", "Monster", "Upgrade", "Treasure")
