@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\james\\source\\repos\\MonkGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\RoomGraph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\RoomGraph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\RoomGraph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\RoomGraph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\Room.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\Room.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\UpgradeRoom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\UpgradeRoom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\TreasureRoom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\TreasureRoom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\UpgradeRoom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\UpgradeRoom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\TreasureRoom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\TreasureRoom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\MonsterRoom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\MonsterRoom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\MonsterRoom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\MonsterRoom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\EmptyRoom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\EmptyRoom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\EmptyRoom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\EmptyRoom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\Room.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{082FF9C8-BFED-411F-9B30-4981B2AF7AF2}|MonkGame\\MonkGame.vcxproj|solutionrelative:MonkGame\\Room.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomGraph.h",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\RoomGraph.h",
+              "RelativeDocumentMoniker": "MonkGame\\RoomGraph.h",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\RoomGraph.h",
+              "RelativeToolTip": "MonkGame\\RoomGraph.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-05T19:38:52.435Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomGraph.cpp",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\RoomGraph.cpp",
+              "RelativeDocumentMoniker": "MonkGame\\RoomGraph.cpp",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\RoomGraph.cpp",
+              "RelativeToolTip": "MonkGame\\RoomGraph.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T19:39:01.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TreasureRoom.cpp",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\TreasureRoom.cpp",
+              "RelativeDocumentMoniker": "MonkGame\\TreasureRoom.cpp",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\TreasureRoom.cpp",
+              "RelativeToolTip": "MonkGame\\TreasureRoom.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T20:29:39.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpgradeRoom.cpp",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\UpgradeRoom.cpp",
+              "RelativeDocumentMoniker": "MonkGame\\UpgradeRoom.cpp",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\UpgradeRoom.cpp",
+              "RelativeToolTip": "MonkGame\\UpgradeRoom.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T20:27:38.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpgradeRoom.h",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\UpgradeRoom.h",
+              "RelativeDocumentMoniker": "MonkGame\\UpgradeRoom.h",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\UpgradeRoom.h",
+              "RelativeToolTip": "MonkGame\\UpgradeRoom.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-05T19:40:42.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TreasureRoom.h",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\TreasureRoom.h",
+              "RelativeDocumentMoniker": "MonkGame\\TreasureRoom.h",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\TreasureRoom.h",
+              "RelativeToolTip": "MonkGame\\TreasureRoom.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-05T19:41:14.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\main.cpp",
+              "RelativeDocumentMoniker": "MonkGame\\main.cpp",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\main.cpp",
+              "RelativeToolTip": "MonkGame\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T18:57:40.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Room.h",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\Room.h",
+              "RelativeDocumentMoniker": "MonkGame\\Room.h",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\Room.h",
+              "RelativeToolTip": "MonkGame\\Room.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-05T19:35:29.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MonsterRoom.h",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\MonsterRoom.h",
+              "RelativeDocumentMoniker": "MonkGame\\MonsterRoom.h",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\MonsterRoom.h",
+              "RelativeToolTip": "MonkGame\\MonsterRoom.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-05T19:41:57.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MonsterRoom.cpp",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\MonsterRoom.cpp",
+              "RelativeDocumentMoniker": "MonkGame\\MonsterRoom.cpp",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\MonsterRoom.cpp",
+              "RelativeToolTip": "MonkGame\\MonsterRoom.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T20:26:36.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmptyRoom.h",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\EmptyRoom.h",
+              "RelativeDocumentMoniker": "MonkGame\\EmptyRoom.h",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\EmptyRoom.h",
+              "RelativeToolTip": "MonkGame\\EmptyRoom.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-05T19:37:13.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmptyRoom.cpp",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\EmptyRoom.cpp",
+              "RelativeDocumentMoniker": "MonkGame\\EmptyRoom.cpp",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\EmptyRoom.cpp",
+              "RelativeToolTip": "MonkGame\\EmptyRoom.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T19:45:51.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Room.cpp",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\Room.cpp",
+              "RelativeDocumentMoniker": "MonkGame\\Room.cpp",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\MonkGame\\MonkGame\\Room.cpp",
+              "RelativeToolTip": "MonkGame\\Room.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T19:54:44.669Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
