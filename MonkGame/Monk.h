@@ -2,6 +2,7 @@
 #define MONK_H
 
 #include "Entity.h"
+#include <string>
 
 class Monk : public Entity {
 public:
@@ -9,9 +10,8 @@ public:
 
     void increaseHealth(int amount);
     void increaseAttack(int amount);
-    void meditate();
-
-    std::string getDescription() const;
+    void meditate();  // Restores health
+    std::string getDescription() const;  // Get the Monk's description
 
 private:
     std::string description;

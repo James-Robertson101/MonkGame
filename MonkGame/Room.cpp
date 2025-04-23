@@ -3,12 +3,10 @@
 // Constructor
 Room::Room(const std::string& type, const std::string& description)
     : type(type), description(description) {
-    std::cout << "Room created: " << type << " - " << description << "\n";
 }
 
 // Destructor
 Room::~Room() {
-    std::cout << "Room destroyed: " << type << " - " << description << "\n";
 }
 
 // Getters

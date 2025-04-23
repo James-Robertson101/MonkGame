@@ -3,19 +3,16 @@
 #include <cstdlib>
 #include <ctime>
 #include <random>
-#include "Monk.h"
-
-
 
 Dungeon::Dungeon() {
-    std::srand(std::time(nullptr)); // seed for randomness
+    std::srand(std::time(nullptr)); // Seed for randomness
 }
 
 void Dungeon::generate() {
     // 1) Create the treasure room and keep it aside
     auto treasureRoom = RoomFactory::createRoom("Treasure");
 
-    // 2) Build the list of the other required rooms
+    // 2) Build the list of other required rooms
     std::vector<std::shared_ptr<Room>> tempRooms;
     tempRooms.push_back(RoomFactory::createRoom("Empty"));
     tempRooms.push_back(RoomFactory::createRoom("Upgrade"));
@@ -24,7 +21,7 @@ void Dungeon::generate() {
 
     // Optional extra rooms
     std::vector<std::string> extraTypes = { "Empty", "Monster", "Upgrade" };
-    int extraCount = std::rand() % 3;  // 0–2 extra
+    int extraCount = std::rand() % 3;  // 0–2 extra rooms
     for (int i = 0; i < extraCount; ++i) {
         tempRooms.push_back(RoomFactory::createRoom(
             extraTypes[std::rand() % extraTypes.size()]
@@ -37,19 +34,18 @@ void Dungeon::generate() {
         std::mt19937{ std::random_device{}() }
     );
 
-    // 4) Move them into the dungeon’s room list…
+    // 4) Add the rooms to the dungeon
     rooms = std::move(tempRooms);
 
-    // …then append the treasure room at the end
+    // Append the treasure room at the end
     rooms.push_back(treasureRoom);
 
-    // 5) Connect them in sequence (linear graph)
+    // 5) Connect them in sequence (unidirectional)
     connectRooms();
 
-    // 6) Your start is still the first room
+    // 6) Set the start room
     startingRoom = rooms[0];
 }
-
 
 void Dungeon::connectRooms() {
     // Unidirectional: room[i] → room[i+1] only
@@ -58,51 +54,46 @@ void Dungeon::connectRooms() {
     }
 }
 
+void Dungeon::displayMonkStatus(const Monk& monk) {
+    std::cout << "\n" << monk.getName() << " - HP: " << monk.getHealth() << "/" << monk.getMaxHealth() << "\n";
+}
 
 void Dungeon::explore(Monk& monk) {
     auto currentRoom = startingRoom;
+
     while (true) {
+        // Display the Monk's status before entering the room
+        displayMonkStatus(monk);
+
+        // Enter the current room and perform the action
         currentRoom->onEnter(monk);
 
+        // If there are no more connections, the game ends
         const auto& connections = currentRoom->getConnectedRooms();
-
         if (connections.empty()) {
-            std::cout << "No more rooms to explore. Game over!\n";
+            std::cout << "\nNo more rooms to explore. Game over!\n";
             break;
         }
 
+        // Show connected rooms for navigation
         std::cout << "\nConnected rooms:\n";
         for (size_t i = 0; i < connections.size(); ++i) {
             std::cout << i + 1 << ". " << connections[i]->getType() << "\n";
         }
 
-        int choice = -1;
-        while (true) {
-            std::cout << "Choose a room to go to (0 to quit): ";
-            std::cin >> choice;
+        std::cout << "Choose a room to go to (0 to quit): ";
+        int choice;
+        std::cin >> choice;
 
-            if (std::cin.fail()) {
-                std::cin.clear(); // Clear error flag
-                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Clear input buffer
-                std::cout << "Invalid input. Please enter a number.\n";
-                continue;
-            }
-
-            if (choice == 0) {
-                std::cout << "Exiting exploration.\n";
-                return;
-            }
-            else if (choice > 0 && choice <= static_cast<int>(connections.size())) {
-                currentRoom = connections[choice - 1];
-                break;
-            }
-            else {
-                std::cout << "Invalid choice. Try again.\n";
-            }
+        if (choice == 0) {
+            std::cout << "Exiting exploration.\n";
+            break;
+        }
+        else if (choice > 0 && choice <= static_cast<int>(connections.size())) {
+            currentRoom = connections[choice - 1];
+        }
+        else {
+            std::cout << "Invalid choice, try again.\n";
         }
     }
 }
-
-
-
-
