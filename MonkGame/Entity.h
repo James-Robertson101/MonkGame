@@ -2,7 +2,7 @@
 #define ENTITY_H
 
 #include <string>
-
+// Entity is the base class that monk and monsters inherit from
 class Entity {
 public:
     Entity(const std::string& name, int health, int attack);
@@ -15,7 +15,7 @@ public:
     int getMaxHealth() const;
     bool isAlive() const;
 
-    // Actions
+    // Actions to be overwritten through polymorphism in inherited classes
     virtual void takeDamage(int amount);
     virtual void heal(int amount);
     virtual void attackEntity(Entity& target);

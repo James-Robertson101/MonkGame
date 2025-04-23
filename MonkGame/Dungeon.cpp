@@ -40,7 +40,7 @@ void Dungeon::generate() {
     // Append the treasure room at the end
     rooms.push_back(treasureRoom);
 
-    // 5) Connect them in sequence (unidirectional)
+    // 5) Connect them in sequence
     connectRooms();
 
     // 6) Set the start room
@@ -48,25 +48,28 @@ void Dungeon::generate() {
 }
 
 void Dungeon::connectRooms() {
-    // Unidirectional: room[i] → room[i+1] only
     for (size_t i = 0; i + 1 < rooms.size(); ++i) {
         rooms[i]->addConnection(rooms[i + 1]);
     }
 }
 
-void Dungeon::displayMonkStatus(const Monk& monk) {
-    std::cout << "\n" << monk.getName() << " - HP: " << monk.getHealth() << "/" << monk.getMaxHealth() << "\n";
-}
+void Dungeon::explore(std::shared_ptr<Monk> monk) {
+    // Set up HUD and attach it as an observer
+    hud = std::make_shared<HUD>(monk);
 
-void Dungeon::explore(Monk& monk) {
     auto currentRoom = startingRoom;
 
     while (true) {
-        // Display the Monk's status before entering the room
-        displayMonkStatus(monk);
+        // Check if Monk is still alive before continuing
+        if (!monk->isAlive()) {
+            std::cout << monk->getName() << " has died. Game over!\n";
+            break;
+        }
+
+        // HUD updates automatically via observer, no need for manual display
 
         // Enter the current room and perform the action
-        currentRoom->onEnter(monk);
+        currentRoom->onEnter(*monk);
 
         // If there are no more connections, the game ends
         const auto& connections = currentRoom->getConnectedRooms();

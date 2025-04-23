@@ -131,6 +131,7 @@
     <ClCompile Include="EmptyRoom.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Goblin.cpp" />
+    <ClCompile Include="Hud.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monk.cpp" />
     <ClCompile Include="Monster.cpp" />
@@ -146,12 +147,15 @@
     <ClInclude Include="EmptyRoom.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="Goblin.h" />
+    <ClInclude Include="Hud.h" />
     <ClInclude Include="Monk.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="MonsterFactory.h" />
     <ClInclude Include="MonsterRoom.h" />
+    <ClInclude Include="Observer.h" />
     <ClInclude Include="Room.h" />
     <ClInclude Include="RoomFactory.h" />
+    <ClInclude Include="Subject.h" />
     <ClInclude Include="TreasureRoom.h" />
     <ClInclude Include="UpgradeRoom.h" />
   </ItemGroup>

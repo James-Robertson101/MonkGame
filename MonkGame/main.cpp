@@ -1,8 +1,10 @@
 #include <iostream>
+#include <memory>
 #include "Dungeon.h"
+#include "HUD.h" // Include HUD header
 
 int main() {
-    // Create a Monk instance
+    // Get Monk details from user
     std::string monkName;
     std::string monkDescription;
 
@@ -11,12 +13,18 @@ int main() {
 
     std::cout << "Enter a description for your Monk: ";
     std::getline(std::cin, monkDescription);
-    
-    Monk monk(monkName, monkDescription);
 
-    // Generate a dungeon and explore
+    // Create a shared pointer to the Monk (with hardcoded health and attack)
+    std::shared_ptr<Monk> monk = std::make_shared<Monk>(monkName, monkDescription);
+
+    // Create and initialize HUD as observer
+    HUD hud(monk);
+
+    // Create and generate the dungeon
     Dungeon dungeon;
     dungeon.generate();
+
+    // Begin exploration
     dungeon.explore(monk);
 
     return 0;
